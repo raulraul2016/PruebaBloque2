@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Clinica Odontológica la mas importante del país">
+	<meta name="keywords" content="clinica, odontologica, odontología, dientes, dental">
+	<meta name="author" content= Lorena Moesch>
+		<title>Clinica Odontológica</title>
+</head>
+<body>
+
+		<!-- MARCO QUE PERMITE COLOCAR DENTRO DE TU BODY DENTRO DE TU WEB EL CONTENIDO HTML DEL MISMO PROYECTO O DE OTRA URL EXTERNA, ESA URL DEBE TENER LOS PERMISOS NECESARIOS PARA PODER COLOCAR CONTENIDO EN MI PROYECTO (SON LOS TIPICOS VIDEOS DONDE DAMOS COMPARTIR Y COPIAMOS EL CODIGO QUE COMIENZA CON IFRAME....)	 -->	
+	<iframe width="800" height="500" src="https://www.youtube.com/embed/9BMwcO6_hyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<!-- MAPA DE GOOGLE EN GOOGLE BUSCO EL CODIGO PARA INSERTAR (GOOGLE MAPS IFRAME - 
+     Embed a Map to your Website - Copy and Paste Code (Free)) -->
+	
+	<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+	<!-- LA ETIQUETA VIDEO ACEPTA EN SOURCE SOLAMENTE 3 TIPOS DE ARCHIVOS -MP4 -OGV -WEBM 
+		controls = para que agregue los controles de video
+		autoplay= para que se reproduzca solo
+		muted= es la unica forma que se reproduzca solo, es una condicion 
+		loop=
+		poster= imagen antes que se reproduzca el video, le debo quitar autoplay 
+	-->
+
+    <video width="800" height="500" src="video/video.mp4" controls  autoplay muted loop ></video>
+    <video width="800" height="500" src="video/video.mp4" controls  a muted loop poster="img/imagen1.jpg">
+     	<source src="video/video.mp4" type="video/mp4">
+     	<source src="video/video.web" type="video/webm">
+     	<source src="video/video.ogv" type="video/ogg">
+     </video>
+<!-- 
+     PARA OTRO TIPO DE VIDEO UTILIZAMOS SOURCE -->
+
+  <audio  src="audio/audio.mp3" controls autoplay mute loop>
+  		<source src="audio/audio.mp3" type="audio/mp3">
+     	<source src="audio/audio.wav" type="audio/wav">
+     	<source src="audio/audio.ogg" type="audio/ogg">
+  </audio>
+
+</body>
+</html>
